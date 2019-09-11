@@ -90,7 +90,7 @@ var uninflectedPlurals = []string{
 // Singular words that should not be inflected
 var uninflectedSingulars = []string{
 	`.*[nrlm]ese`, `.*deer`, `.*fish`, `.*measles`, `.*ois`, `.*pox`, `.*sheep`,
-	`.*ss`, `*data`,
+	`.*ss`, `.*data`,
 }
 
 type cache map[string]string
