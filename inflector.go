@@ -78,7 +78,7 @@ var uninflected = []string{
 	`rabies`, `rice`, `rhinoceros`, `salmon`, `Sarawakese`, `scissors`,
 	`sea[- ]bass`, `series`, `Shavese`, `shears`, `siemens`, `species`, `swine`,
 	`testes`, `trousers`, `trout`, `tuna`, `Vermontese`, `Wenchowese`, `whiting`,
-	`wildebeest`, `Yengeese`,
+	`wildebeest`, `Yengeese`, `.*data`,
 }
 
 // Plural words that should not be inflected
@@ -90,7 +90,7 @@ var uninflectedPlurals = []string{
 // Singular words that should not be inflected
 var uninflectedSingulars = []string{
 	`.*[nrlm]ese`, `.*deer`, `.*fish`, `.*measles`, `.*ois`, `.*pox`, `.*sheep`,
-	`.*ss`, `.*data`,
+	`.*ss`,
 }
 
 type cache map[string]string
